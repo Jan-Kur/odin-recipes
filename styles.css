@@ -6,29 +6,56 @@ body {
     text-align: center;
 }
 
-a {
-    color: aquamarine;
+img {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding: 10px;
+    margin-bottom: 2%;
+}
+
+/* New container styles */
+.description-section {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.Description-header, .Description-text {
+    text-align: left;
+}
+
+#links {
+    color: rgb(127, 255, 212);
+    margin-left: 8%;
 }
 
 ul {
-    display: inline-block;
+    text-align: left;
+    padding-left: 35%;
+    padding-right: 20%;
+    margin-bottom: 4%;
+}
+
+ul li {
     text-align: left;
 }
 
 ol {
-    display: inline-block;
     text-align: left;
-    padding-left: 370px;
-    padding-right: 370px;
-}
-
-p {
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 25%;
+    padding-right: 20%;
 }
 
 ol li {
     padding-top: 7px;
     padding-bottom: 7px;
+}
+
+p {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
 }
 
